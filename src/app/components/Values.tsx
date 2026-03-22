@@ -34,23 +34,23 @@ export function Values({ language }: ValuesProps) {
       values: [
         {
           letter: 'A',
-          title: '负责任',
-          description: '对资本、合作伙伴和长期结果负责。',
+          title: 'Accountable 责任担当',
+          description: '我们对每一项决策负责——对资本、合作伙伴及长期结果承担全部责任，所有成果均可衡量且透明。',
         },
         {
           letter: 'B',
-          title: '仁爱',
-          description: '致力于长期共赢的价值创造。',
+          title: 'Benevolent 利他共赢',
+          description: '我们追求真正的双赢，通过资本配置为客户及所有利益相关方创造可持续的正向价值。',
         },
         {
           letter: 'C',
-          title: '可信',
-          description: '建立在透明、专业和信任之上。',
+          title: 'Credible 公信可靠',
+          description: '以绝对透明、专业深度和严格合规为基础，建立并维护持久的信任。',
         },
         {
           letter: 'R',
-          title: '坚韧',
-          description: '在周期和波动中实现可持续增长。',
+          title: 'Resilient 韧性增长',
+          description: '在市场周期与波动中实现稳健增长，优先考虑可持续、可复制的长期回报。',
         },
       ],
     },
