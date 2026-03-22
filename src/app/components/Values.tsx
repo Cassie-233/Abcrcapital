@@ -10,7 +10,7 @@ export function Values({ language }: ValuesProps) {
         {
           letter: 'A',
           title: 'Accountable',
-          description: 'We own every decision—full responsibility for capital, partners, and long-term results, with every outcome measurable and transparent.o',
+          description: 'We own every decision—full responsibility for capital, partners, and long-term results, with every outcome measurable and transparent.',
         },
         {
           letter: 'B',

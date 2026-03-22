@@ -5,8 +5,8 @@ interface GlobalReachProps {
 export function GlobalReach({ language }: GlobalReachProps) {
   const content = {
     en: {
-      title: 'Global Reach',
-      description: 'Serving clients globally with a digital-first approach.',
+      title: 'About',
+      description: 'ABCR Capital LLC is a boutique investment firm specializing in U.S. equity trading and active capital management, delivering disciplined, high-conviction strategies to a global client base.\n\nFounded and led by Corey D. Richards, who has been trading U.S. stocks since 1995 with a proven track record of delivering average annualized returns exceeding 20% (net of fees, over multiple market cycles), ABCR Capital focuses on resilient, risk-adjusted performance that consistently outperforms benchmarks. With offices in Seattle, Washington and Jacksonville, Florida, the firm bridges West Coast innovation and East Coast accessibility to provide personalized, long-term investment solutions.',
     },
     zh: {
       title: '全球覆盖',
@@ -20,17 +20,17 @@ export function GlobalReach({ language }: GlobalReachProps) {
     <section id="global" className="py-24 md:py-32">
       <div className="max-w-[1200px] mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 
+          <div style={{ marginBottom: '12px' }}>
+            <h2
               className="font-['Tenor_Sans'] mb-6"
-              style={{ 
-                fontSize: 'clamp(32px, 5vw, 48px)', 
+              style={{
+                fontSize: 'clamp(32px, 5vw, 48px)',
                 color: '#FEFFFA'
               }}
             >
               {t.title}
             </h2>
-            <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#FEFFFA', opacity: '0.8' }}>
+            <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#FEFFFA', opacity: '0.8', whiteSpace: 'pre-line' }}>
               {t.description}
             </p>
           </div>
