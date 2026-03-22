@@ -44,7 +44,7 @@ export function Services({ language }: ServicesProps) {
                 key={index} 
                 className="flex items-start gap-4"
               >
-                <span style={{ color: '#750101', fontSize: '20px' }}>•</span>
+                <span style={{ color: 'rgba(201, 160, 13, 1)', fontSize: '20px' }}>•</span>
                 <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#FEFFFA' }}>
                   {service}
                 </p>

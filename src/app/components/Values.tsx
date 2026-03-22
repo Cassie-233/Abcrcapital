@@ -10,22 +10,22 @@ export function Values({ language }: ValuesProps) {
         {
           letter: 'A',
           title: 'Accountable',
-          description: 'Responsible for capital, partners, and long-term outcomes.',
+          description: 'We own every decision—full responsibility for capital, partners, and long-term results, with every outcome measurable and transparent.',
         },
         {
           letter: 'B',
           title: 'Benevolent',
-          description: 'Aligned with long-term, win-win value creation.',
+          description: 'We pursue genuine win-win outcomes, deploying capital to create sustainable, positive value for clients and all stakeholders.',
         },
         {
           letter: 'C',
           title: 'Credible',
-          description: 'Built on transparency, professionalism, and trust.',
+          description: 'Built on uncompromising transparency, deep professionalism, and strict regulatory compliance to earn and preserve lasting trust.',
         },
         {
           letter: 'R',
           title: 'Resilient',
-          description: 'Sustainable growth across cycles and volatility.',
+          description: 'We deliver steady, robust growth through market cycles and volatility, prioritizing sustainable and repeatable long-term returns.',
         },
       ],
     },
@@ -74,14 +74,14 @@ export function Values({ language }: ValuesProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {t.values.map((value) => (
             <div key={value.letter} className="text-center md:text-left">
-              <h3 
+              <h3
                 className="font-['Tenor_Sans'] mb-4"
-                style={{ 
-                  fontSize: 'clamp(24px, 4vw, 32px)', 
+                style={{
+                  fontSize: 'clamp(24px, 4vw, 32px)',
                   color: '#FEFFFA'
                 }}
               >
-                {value.letter} — {value.title}
+                {value.title}
               </h3>
               <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#FEFFFA', opacity: '0.8' }}>
                 {value.description}
