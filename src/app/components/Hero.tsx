@@ -15,10 +15,10 @@ export function Hero({ language }: HeroProps) {
     zh: {
       title: 'ABCR Capital',
       subtitle: '全球股权管理',
-      a: 'A — 负责任',
-      b: 'B — 仁爱',
-      c: 'C — 可信',
-      r: 'R — 坚韧',
+      a: 'A — Accountable｜责任担当',
+      b: 'B — Benevolent｜利他共赢',
+      c: 'C — Credible｜公信可靠',
+      r: 'R — Resilient｜韧性增长',
     },
   };
 
