@@ -40,7 +40,7 @@ export function Navigation({ language, setLanguage }: NavigationProps) {
           className="transition-opacity hover:opacity-70"
         >
           <ImageWithFallback
-            src="/images/ABCR logo.jpg"
+            src="/images/ABCR logo2.jpg"
             alt="ABCR Capital"
             className="h-8 w-auto object-contain"
           />
