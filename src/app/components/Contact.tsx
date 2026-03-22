@@ -59,7 +59,7 @@ export function Contact({ language }: ContactProps) {
           
           <a 
             href="mailto:contact@abcrcapital.com"
-            style={{ fontSize: '16px', color: '#750101' }}
+            style={{ fontSize: '16px', color: '#C9A00D' }}
             className="hover:opacity-80 transition-opacity"
           >
             contact@abcrcapital.com
