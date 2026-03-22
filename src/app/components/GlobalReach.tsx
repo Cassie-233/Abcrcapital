@@ -5,12 +5,13 @@ interface GlobalReachProps {
 export function GlobalReach({ language }: GlobalReachProps) {
   const content = {
     en: {
-      title: 'Global Reach',
-      description: 'Serving clients globally with a digital-first approach.',
+      title: 'About',
+      description: 'ABCR Capital LLC is a boutique investment firm specializing in U.S. equity trading and active capital management, delivering disciplined, high-conviction strategies to a global client base.\n\nFounded and led by Corey D. Richards, who has been trading U.S. stocks since 1995 with a proven track record of delivering average annualized returns exceeding 20% (net of fees, over multiple market cycles), ABCR Capital focuses on resilient, risk-adjusted performance that consistently outperforms benchmarks. With offices in Seattle, Washington and Jacksonville, Florida, the firm bridges West Coast innovation and East Coast accessibility to provide personalized, long-term investment solutions.',
     },
     zh: {
-      title: '全球覆盖',
-      description: '以数字化优先的方式为全球客户提供服务。',
+      title: '关于我们',
+      description: 'ABCR Capital LLC 是一家精品投资公司，专注于美国股市交易与主动资本管理，为全球客户提供纪律严明、高信念度的投资策略。',
+      description2: '公司由 Corey D. Richards 创立并领导，他自 1995 年起活跃于美股交易，长期保持年化平均回报率超过 20%（扣除费用后，多周期验证），致力于提供超越基准、风险调整后的稳健表现。公司在华盛顿州西雅图和佛罗里达州杰克逊维尔设有办公室，将西海岸创新与东海岸便利性相结合，为客户量身定制长期投资方案。',
     },
   };
 
@@ -21,18 +22,25 @@ export function GlobalReach({ language }: GlobalReachProps) {
       <div className="max-w-[1200px] mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 
+            <h2
               className="font-['Tenor_Sans'] mb-6"
-              style={{ 
-                fontSize: 'clamp(32px, 5vw, 48px)', 
+              style={{
+                fontSize: 'clamp(32px, 5vw, 48px)',
                 color: '#FEFFFA'
               }}
             >
               {t.title}
             </h2>
-            <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#FEFFFA', opacity: '0.8' }}>
+            <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#FEFFFA', opacity: '0.8', whiteSpace: 'pre-line' }}>
               {t.description}
             </p>
+            {t.description2 && (
+              <div style={{ marginTop: '12px' }}>
+                <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#FEFFFA', opacity: '0.8', whiteSpace: 'pre-line' }}>
+                  {t.description2}
+                </p>
+              </div>
+            )}
           </div>
           
           <div className="aspect-video">
