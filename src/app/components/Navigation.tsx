@@ -40,7 +40,7 @@ export function Navigation({ language, setLanguage }: NavigationProps) {
           className="transition-opacity hover:opacity-70"
         >
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1710407625705-fe00b2ecf9e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwbHV4dXJ5JTIwYnJhbmQlMjBsb2dvJTIwd2hpdGV8ZW58MXx8fHwxNzc0MTY0MjMwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="/images/ABCR logo.jpg"
             alt="ABCR Capital"
             className="h-8 w-auto object-contain"
           />
