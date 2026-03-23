@@ -58,11 +58,11 @@ export function Contact({ language }: ContactProps) {
         <div className="text-center">
           
           <a 
-            href="mailto:contact@abcrcapital.com"
+            href="mailto:info@abcrcapital.com"
             style={{ fontSize: '16px', color: '#C9A00D' }}
             className="hover:opacity-80 transition-opacity"
           >
-            contact@abcrcapital.com
+            info@abcrcapital.com
           </a>
         </div>
       </div>
