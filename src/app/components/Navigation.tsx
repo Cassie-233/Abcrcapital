@@ -58,7 +58,7 @@ export function Navigation({ language, setLanguage }: NavigationProps) {
             <button onClick={() => scrollToSection('services')} className="transition-opacity hover:opacity-70" style={{ color: '#FEFFFA' }}>
               {t.services}
             </button>
-            <button onClick={() => scrollToSection('global')} className="transition-opacity hover:opacity-70" style={{ color: '#FEFFFA' }}>
+            <button onClick={() => scrollToSection('about')} className="transition-opacity hover:opacity-70" style={{ color: '#FEFFFA' }}>
               {t.about}
             </button>
             <button onClick={() => scrollToSection('contact')} className="transition-opacity hover:opacity-70" style={{ color: '#FEFFFA' }}>
