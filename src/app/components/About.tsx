@@ -15,7 +15,7 @@ export function About({ language }: AboutProps) {
   const t = content[language];
 
   return (
-    <section id="about" className="py-24 md:py-32">
+    <section  className="py-24 md:py-32">
       <div className="max-w-[700px] mx-auto px-6 md:px-12 text-center">
         <p className="font-bold" 
           style={{ 
